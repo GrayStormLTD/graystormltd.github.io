@@ -1,0 +1,56 @@
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+	<head> 
+	
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+		<title>GrayStorm | You have a dream, we have the skill</title>
+		
+		<meta name="description" content="GrayStorm, the company that makes your dreams come true.">
+		
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open Sans:300,400,500,700" rel="stylesheet">
+		<style type="text/css">
+			.rainbowGradient {background: -webkit-linear-gradient(44deg, #f6765f, #ac86fb); -webkit-background-clip: text;-webkit-text-fill-color: transparent;}			
+			html {
+				text-rendering: geometricPrecision;
+				width:100%;
+				height:100%;
+				margin:0;
+				overflow-x:hidden;
+				background-color:black;
+				}
+			body {
+				position:relative;
+				width:1200px;
+				margin-top:0px;
+				margin-left:auto;
+				margin-right:auto;
+				margin-bottom:0px;
+				font-family:'Open Sans';
+				background-color:black;
+				}
+		</style>
+    </head>
+	<body>
+		<div id="bodyDiv" style="padding-left:0px;">
+			
+				<div style="line-height:60px;">
+				<span style="font-size:82px;color:white;font-weight:300;" class="rainbowGradient">GrayStorm</span>
+				<br/>
+				<span style="font-size:62px;color:white;font-weight:300;">You have a <span class="rainbowGradient">dream</span>, we have the <span class="rainbowGradient">skill</span></span>
+				</div>
+				<br/><br/>
+				<span style="font-size:42px;color:white;font-weight:300;font-family:'Courier', sans-serif;">contact@graystorm.io</span>
+		</div>
+		
+		<script>
+		function resize() {
+			let h	=	window.innerHeight;
+			let t	=	h/2;
+			let d	=	document.getElementById("bodyDiv").offsetHeight;
+			document.getElementById("bodyDiv").style.marginTop	=	t-d/2+'px';
+		}
+		setInterval("resize()", 150);
+		</script>
+	</body>
+</html>	
